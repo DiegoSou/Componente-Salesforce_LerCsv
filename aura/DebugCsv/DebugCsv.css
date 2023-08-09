@@ -1,0 +1,72 @@
+.THIS {
+}
+
+.THIS .parteB{
+    background-color: white;
+    height: 18rem;
+    display: flex;
+    width: 30rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.THIS .botao{
+    color: white;
+    background-color: #5956a5;
+    height: 10rem;
+    width: 21rem;
+    display: flex;
+    cursor: pointer;
+}
+
+.THIS .parteB{
+    background-color: white;
+    height: 18rem;
+    display: flex;
+    width: 30rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.THIS .botao{
+    color: white;
+    background-color: #5956a5;
+    height: 10rem;
+    width: 21rem;
+    display: flex;
+    cursor: pointer;
+}
+
+.THIS #upload{
+    display: flex;
+    width: 12rem;
+}
+.THIS .solte{
+    height: 3rem;
+    display: flex;
+    width: 23rem;
+    border-style: dashed;
+    border-width: thin;
+    align-items: center;
+}
+
+.THIS .botao:hover {
+    opacity: 0.7;
+}
+
+.THIS .solte:hover{
+    background-color: rgb(128, 128, 128, 0.13);
+}
+
+.THIS #fileDirectory
+{
+    display: block;
+    width: 23rem !important;
+    height: 3rem !important;
+    position: absolute !important;
+    z-index: 9999999999999999999;
+    opacity: 0 !important;
+}
+.THIS #fileDirectory{
+    cursor: pointer;
+}

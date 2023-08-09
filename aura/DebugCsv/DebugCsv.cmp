@@ -1,0 +1,25 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickAction" access="global" >
+    <div class="slds-file-selector slds-file-selector_files slds-align_absolute-center">
+        <div class="slds-file-selector__dropzone parteB">
+            
+            <label class="slds-file-selector__body" for="fileDirectory" style="flex-direction: column;">
+                <div class="slds-file-selector__button slds-button slds-button_neutral botao" style="flex-direction: column;">
+                    <div class="slds-var-m-around_xx-small">
+                        <span id="upload">Clique aqui para fazer o carregamento do arquivo .csv</span>
+                    </div>
+                    <div class="slds-var-m-around_xx-small">
+                        <lightning:icon iconName='action:download' alternativeText='Importar Dados (csv)' size='large' title='importar dados' id="button" style="background-color: transparent;"></lightning:icon>
+                    </div>
+                </div>
+                <br/>
+                <div class="solte">
+                    <input id="fileDirectory" type="file" accept=".csv, text/csv" onchange="{!c.doDebug}" />
+                    <span class="slds-file-selector__text slds-medium-show" style="margin: auto;">
+                        Ou solte o arquivo aqui
+                    </span>
+                </div>
+            </label>
+            
+        </div>
+    </div>
+</aura:component>
